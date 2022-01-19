@@ -3,7 +3,14 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('<h1>Auto Scaling Demo App</h1> <h4>Message: Success</h4> <p>Version: 1.0.0</p>');
+  res.send('<html>
+    <head>
+        <title>Fayhaa Khair</title>
+    </head>
+    <body>
+        <p>I Love You</p>
+    </body>
+</html>');
 })
 
 app.listen(port, () => {

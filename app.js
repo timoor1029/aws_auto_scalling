@@ -5,10 +5,10 @@ const port = 3000;
 app.get('/', (req, res) => {
   res.send('<html>
     <head>
-        <title>Fayhaa Khair</title>
+        <title>Hello World</title>
     </head>
     <body>
-        <p>I Love You</p>
+        <p>From Timoor</p>
     </body>
 </html>');
 })
